@@ -1,0 +1,5 @@
+# Build docker image
+sudo docker build . -t xdevapps/restapi --rm
+
+# Run docker image in new container
+sudo docker run -p 50123:50123 -d xdevapps/restapi

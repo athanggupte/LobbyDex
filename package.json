@@ -1,0 +1,16 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Sample REST API proof-of-concept for Matchmaking server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Athang Gupte",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0"
+  }
+}
